@@ -1,2 +1,23 @@
-@import './common';
-@import './example';
+@import './utils/vars';
+@import './utils/mixins';
+
+@import './base/reset';
+@import './base/common';
+
+@import './utils/hidden';
+
+@import './components/container';
+@import './components/button';
+
+@import './components/itc-slider';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/main-content';
+@import './layout/explore';
+@import './layout/order';
+@import './layout/selling';
+@import './layout/phoneapp';
+@import './layout/reviews';
+@import './layout/about';
+@import './layout/footer';

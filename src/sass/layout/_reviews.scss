@@ -1,0 +1,144 @@
+.reviews {
+  padding-top: 155px;
+  padding-bottom: 105px;
+  position: relative;
+
+  & .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+  }
+}
+
+.reviews__bg {
+  position: absolute;
+  left: 0;
+  top: -300px;
+}
+
+.reviews__bg--bottom {
+  position: absolute;
+  right: 0;
+  bottom: -230px;
+}
+
+.reviews__list {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 0;
+}
+
+.reviews__card {
+  width: 468px;
+  min-height: 642px;
+  background-color: var(--secondary-text-color);
+  border-radius: 16px;
+}
+
+.customer__img {
+  border-radius: 16px 16px 0 0;
+}
+
+.reviews__descr {
+  padding: 40px;
+}
+
+.reviews__info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  margin-bottom: 32px;
+}
+
+.reviews__stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews__name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.25;
+
+  color: var(--title-text-color);
+
+  margin-right: 16px;
+}
+
+.reviews__icon {
+  fill: #ffb700;
+}
+
+.rewievs__txt {
+  font-size: 19.5px;
+  line-height: 1.5;
+
+  color: var(--title-text-color);
+}
+
+.reviews__title {
+  width: 460px;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1.09;
+
+  color: var(--title-text-color);
+
+  margin-bottom: 40px;
+}
+
+.reviews__rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 99px;
+
+  & .reviews__stars {
+    justify-content: start;
+  }
+}
+
+.reviews__score {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1;
+
+  color: var(--title-text-color);
+  margin-right: 24px;
+}
+
+.reviews__total {
+  font-size: 20px;
+  line-height: 1.4;
+
+  color: var(--primary-text-color);
+}
+
+.reviews__btn {
+  &:not(:last-child) {
+    margin-right: 25px;
+  }
+}
+
+.reviews__btn {
+  line-height: 0;
+  padding: 15px;
+  box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+}
+
+.gallery {
+  max-width: 971px;
+  position: relative;
+  right: 100px;
+}
+
+.gallery__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 337px;
+  left: 1071px;
+}

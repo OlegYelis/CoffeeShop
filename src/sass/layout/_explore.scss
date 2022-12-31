@@ -1,0 +1,87 @@
+.explore {
+  padding-top: 150px;
+  padding-bottom: 95px;
+  position: relative;
+}
+
+.explore__img {
+  position: absolute;
+  left: 0;
+  top: 54px;
+}
+
+.explore__title {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1.09;
+  text-align: center;
+
+  color: var(--title-text-color);
+  margin-bottom: 24px;
+}
+
+.explore__descr {
+  width: 604px;
+  font-size: 24px;
+  line-height: 1.46;
+  text-align: center;
+  margin: 0 auto 90px auto;
+
+  color: var(--primary-text-color);
+}
+
+.explore__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore__card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 393px;
+  padding: 40px;
+
+  background: linear-gradient(
+    152.09deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: drop-shadow(0px 30px 60px rgba(163, 168, 179, 0.15));
+  border-radius: 24px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.explore__card-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.44;
+
+  color: var(--title-text-color);
+  margin-bottom: 8px;
+}
+
+.explore__card-txt {
+  font-weight: 400;
+  font-size: 23.8px;
+  line-height: 1.46;
+
+  color: var(--primary-text-color);
+
+  margin-bottom: 60px;
+}
+
+.explore__card-icon {
+  margin: 0 auto 60px auto;
+}
+
+.explore__card-btn {
+  width: 225px;
+  padding: 15px;
+  margin: 0 auto;
+}

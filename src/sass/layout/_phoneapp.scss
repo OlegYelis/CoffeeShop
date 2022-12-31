@@ -1,0 +1,51 @@
+.phoneapp {
+  padding: 276px 0 155px;
+  position: relative;
+
+  & .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.phoneapp__bg {
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+
+.phoneapp__descr {
+  width: 515px;
+  margin-left: 100px;
+}
+
+.phoneapp__title {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1.09;
+
+  color: var(--title-text-color);
+  margin-bottom: 30px;
+}
+
+.phoneapp__txt {
+  font-size: 24px;
+  line-height: 35px;
+
+  color: var(--primary-text-color);
+  margin-bottom: 60px;
+}
+
+.phoneapp__img {
+  position: absolute;
+  z-index: 1;
+  right: 100px;
+}
+
+.phoneapp__ellipse {
+  position: absolute;
+  top: -50px;
+  right: 70px;
+  z-index: 0;
+}

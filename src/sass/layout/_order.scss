@@ -1,0 +1,44 @@
+.order {
+  padding-top: 95px;
+  padding-bottom: 85px;
+
+  & .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.order__ellipse {
+  position: absolute;
+  z-index: 0;
+  top: 130px;
+  left: 80px;
+}
+
+.order__img {
+  position: relative;
+}
+
+.order__title {
+  width: 520px;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1.09;
+
+  color: var(--title-text-color);
+
+  margin-bottom: 30px;
+}
+
+.order__txt {
+  width: 520px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.45;
+
+  color: var(--primary-text-color);
+
+  margin-bottom: 60px;
+}
